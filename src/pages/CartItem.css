@@ -1,0 +1,29 @@
+.cart-item-container {
+    display: flex;
+    background-color: #fff;
+    max-width: 100%;
+}
+
+.cart-item-img {
+    width: 130px;
+    height: auto;
+    margin: 20px 40px;
+}
+
+.cart-item-category {
+    text-transform: capitalize;
+    color: rgb(117, 117, 117);
+}
+
+.cart-item-text {
+    margin: 40px;
+}
+
+.cart-item-remove {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 10px -8px;
+}

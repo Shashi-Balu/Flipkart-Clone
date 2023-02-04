@@ -1,0 +1,40 @@
+.product_cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_card {
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.title {
+    font-weight: 500;
+   
+}
+
+.price {
+     color: green;
+    font-weight: bold;
+}
+
+.product_card>img {
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s;
+}
+
+.product_card>img:hover {
+    transform: scale(1.05);
+}

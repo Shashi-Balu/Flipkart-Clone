@@ -1,0 +1,55 @@
+.price-heading {
+    text-transform: uppercase;
+    color: rgb(161, 161, 161);
+    padding: 20px;
+}
+
+.cart-details {
+    font-size: 1.3rem;
+    background-color: #fff;
+    max-width: 100%;
+}
+
+.price-data>p{
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    
+}
+
+.price-data>p>span{
+    margin-left: 10rem;
+    
+}
+
+.price-hr {
+    border-color: whitesmoke;
+    opacity: 60%;
+}
+
+.cart-total-amount {
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.price-delivery-fee {
+    margin-bottom: 20px;
+}
+
+.discount-detail {
+    margin: 20px auto;
+}
+
+.price-discount>span, .price-delivery-fee>span, .price-total>span { 
+    font-weight: normal;
+}
+
+.price-discount>span, .price-delivery-fee>span, .discount-detail {
+    color: green;
+}
+
+.price-hr-dotted {
+    border: 0.3px dashed rgb(161, 161, 161);
+
+}
