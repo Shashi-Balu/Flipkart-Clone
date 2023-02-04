@@ -26,8 +26,9 @@ const Navbar = () => {
             <Options text="Select an option" />
             <Options text="Become a seller" />
             <Options text="Name" />
-        
-            <Options text="Cart" />
+            <Link to="/cart">
+                <Options text="Cart" />
+            </Link>
         </div>
     );
 };
